@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --primary-color: #1DA1F2;
+    --primary-color: #B35AFF
+
+    ;
 }
 
 body{
@@ -10,6 +12,9 @@ body{
 
 }
 
+hr{
+    margin: 2rem 0rem 2rem 0rem;
+}
 
 
 /** container **/ 
