@@ -6,11 +6,15 @@
     ;
 }
 
+/** body style **/
+
 body{
     font-family: 'Montserrat', sans-serif;
     /* background-image: linear-gradient(to top, #790f59, #814c91, #827cbf, #89aae1, #a1d5fb); */
 
 }
+
+/** hr **/
 
 hr{
     margin: 2rem 0rem 2rem 0rem;
@@ -49,5 +53,13 @@ hr{
 }
 
 
+/** lists **/
 
-  
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+   display: inline;
+   padding: 0rem 0.5rem;
+}
