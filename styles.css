@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root{
+    --primary-color: #1DA1F2;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+    /* background-image: linear-gradient(to top, #790f59, #814c91, #827cbf, #89aae1, #a1d5fb); */
 
 }
 
+
+
 /** container **/ 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -16,3 +22,27 @@ body{
   margin: auto;
 }
 
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+/** look into BEM method **/ 
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+
+  
