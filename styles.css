@@ -32,12 +32,16 @@ hr {
     margin: auto;
 }
 
+/** margin for project sections **/
+ .margin-md{
+    margin-bottom: 4rem;
+ }
 /** links **/
 
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
+
 }
 
 
@@ -95,7 +99,8 @@ hr {
 }
 
 .hero {
-    padding-top: 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -105,7 +110,7 @@ hr {
 }
 
 .hero .hero-heading {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     color: var(--dark-gray);
     text-align: center;
 }
