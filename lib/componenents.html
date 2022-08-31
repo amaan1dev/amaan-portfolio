@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component library for portfolio website</title>
+</head>
+<link rel="stylesheet" href="/styles.css">
+
+<body>
+
+    <h1 id="lib-header">Amaan's component library</h1>
+    <p>
+        Currently i am attending Neog.camp and i want to make a library which will
+        make my projects look good and consistent
+    </p>
+
+    <hr />
+
+    <h2>@Typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>
+        Let me show you the normal text, this is free flowing and will wrap at the
+        end like a paragraph
+    </p>
+    <small>This is relatively smaller text</small>
+
+    <hr />
+
+    <h2>@Container</h2>
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go til the end of the page</div>
+    <h3>center container</h3>
+    <div class="container 
+    container-center">This is a centered container and it will go till specified width</div>
+
+    <hr />
+
+    <h2>@Links</h2>
+    <a class="link link-primary" href="primary-link.com">primary-link</a>
+    <a class="link link-secondary" href="Secondary-link.com">Secondary-link</a>
+
+    <hr />
+
+    <h2>@List</h2>
+    <h3>Unordered list</h3>
+    <p>This list will not have bullets</p>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Second</li>
+        <li>Item Third</li>
+    </ul>
+
+    <h3>Unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>Reversed Ordered List</h3>
+
+    <ol reversed>
+        <li>Milk</li>
+        <li>bread</li>
+        <li>Eggs</li>
+    </ol>
+
+    <hr />
+
+    <nav class="navigation container">
+        <div class="nav-brand">I am brand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr />
+
+    <h2>@Header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" alt="" />
+        <h1 class="hero-heading">Amaan <span class="heading-inverted">makes websites</span></h1>
+    </header>
+
+    <hr />
+
+    <h2>More Into Web Dev</h2>
+    <section class="section">
+        <div class="container-center">
+            <h1>HTML</h1>
+            <p>HTML is the language that we use to structure the different parts of our content and define what their
+                meaning or purpose is. This topic teaches HTML in detail.</p>
+        </div>
+
+    </section>
+
+    <section class="section off-white">
+        <div class="container-center">
+            <h1>JavaScript</h1>
+            <p>JavaScript is the scripting language used to add dynamic functionality to web pages. This topic teaches
+                all the essentials needed to become comfortable with writing and understanding JavaScript.</p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@Footer</h2>
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Social-one
+
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social-two
+
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social-three
+
+                </a>
+            </li>
+
+        </ul>
+    </footer> 
+    
+</body>
+
+</html>

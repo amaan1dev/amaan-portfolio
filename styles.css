@@ -37,6 +37,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 
@@ -144,7 +145,13 @@ hr {
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul{
     padding-inline-start: 0px;
 
 }
+
