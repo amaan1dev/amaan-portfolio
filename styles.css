@@ -70,9 +70,24 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    /* border-radius: 6px; */
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
 }
 
-.links-navigation{
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
     color: white;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
 }
