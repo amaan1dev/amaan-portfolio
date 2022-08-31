@@ -1,51 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root{
+:root {
     --primary-color: #B35AFF;
     --dark-gray: #4b5563;
+    --off-white:#f1f5f9;
 }
 
 /** body style **/
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    
+
 
 }
 
 /** hr **/
 
-hr{
+hr {
     margin: 2rem 0rem 2rem 0rem;
 }
 
 
-/** container **/ 
-.container{
+/** container **/
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
-  max-width: 600px;
-  margin: auto;
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
 /** links **/
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 
-/** look into BEM method **/ 
-.link-primary{
+/** look into BEM method **/
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -54,19 +55,19 @@ hr{
 
 /** lists **/
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
-   display: inline;
-   padding: 0rem 0.5rem;
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 
 /** navigation **/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
@@ -74,20 +75,20 @@ hr{
 }
 
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
@@ -95,18 +96,54 @@ hr{
     padding-top: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
     text-align: center;
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/** sections **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+
 }
