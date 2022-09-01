@@ -59,6 +59,7 @@ hr {
 }
 
 
+
 /** lists **/
 
 .list-non-bullet {
@@ -77,6 +78,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     padding: 1rem;
 }
 
@@ -133,16 +135,26 @@ hr {
     background-color: var(--off-white);
 }
 
+.ow-blog{
+    max-width: 660px;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
 
+#blog3{
+    margin-top: 4rem;
+}
 /** footer **/
 
 .footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
     text-align: center;
     color: white;
+    
 }
 
 
